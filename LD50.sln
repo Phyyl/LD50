@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD50", "LD50\LD50.csproj", "{24B0786F-8E8C-4990-AEE0-12803C8982EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vildmark", "Vildmark", "{4EA7DD36-4751-4E56-A0EA-3AC037014A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vildmark", "Vildmark\Vildmark\Vildmark.csproj", "{61B9B687-FC97-46FD-B699-A94BFAB96D8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,18 @@ Global
 		{24B0786F-8E8C-4990-AEE0-12803C8982EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24B0786F-8E8C-4990-AEE0-12803C8982EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24B0786F-8E8C-4990-AEE0-12803C8982EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B9B687-FC97-46FD-B699-A94BFAB96D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B9B687-FC97-46FD-B699-A94BFAB96D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B9B687-FC97-46FD-B699-A94BFAB96D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B9B687-FC97-46FD-B699-A94BFAB96D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FC06DC0-0C36-4858-A26F-675E683766A5}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61B9B687-FC97-46FD-B699-A94BFAB96D8C} = {4EA7DD36-4751-4E56-A0EA-3AC037014A5E}
 	EndGlobalSection
 EndGlobal
